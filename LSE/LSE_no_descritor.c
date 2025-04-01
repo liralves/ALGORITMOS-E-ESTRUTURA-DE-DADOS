@@ -64,6 +64,7 @@ void inserirInicio(LinkedList* lista, int valor){
 
 int main(){
 
+    int valor;
     LinkedList* lista;
     lista = criarLista(&lista);
     inserirInicio(lista, valor);
